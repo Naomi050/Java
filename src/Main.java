@@ -1,9 +1,21 @@
-import java.math.MathContext;
-import java.nio.channels.Pipe;
-import java.util.Scanner;
-
 public class Main {
+
     public static void main(String[] args) {
+        Calculator obiect = new Calculator();
+        System.out.println(obiect.printSum());
+        System.out.println(obiect.printDivide());
+        System.out.println(obiect.multiply());
+        LogicalOp number = new LogicalOp();
+        System.out.println( " The bigger number is :" + number.checkBiggerNumber(9, 7));
+        System.out.println(number.textcomp("FastTrackIT"));
+        System.out.println(number.comparison("FastTrackIT", 3));
+        System.out.println(number.comparison2(7));
+        System.out.println(number.comparison3(9));
+        System.out.println(number.chocolateString(35));
+        System.out.println(number.isNumberEven(12));
+        System.out.println(number.isEligibleVote(16));
+        System.out.println();
+
         NumeleMeu();
 
         int a = 9;
