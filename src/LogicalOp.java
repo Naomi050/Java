@@ -1,113 +1,127 @@
 //ex2
 public class LogicalOp {
-    public static void main(String[] args) {
-        int number = 35;
-        chocolateString(number);
-        switch (number) {
-            case 1:
-                System.out.println(chocolateString(35));
+
+
+    //ex1
+    public void PrintNumbers(int number) {
+        for (int w = number; w <= 100; w++) {
+            System.out.println(w);
         }
 
-        int first = 12;
-        isNumberEven(first);
 
-        int vot = 16;
-        isEligibleVote(vot);
+    }
 
+    //ex2
+    public void PrintNumbers2(int print) {
+        for (int y = print; y >= -100; y--) {
+            System.out.println(y);
 
-
-
+        }
     }
 
 
     //ex3
-    public String textcomp(String textInput) {
-        if (textInput.equals("FastTrackIT")) {
-            return "Learning text comparison";
+    public void PrintNumbers3(int first, int second) {
 
-        } else {
-            return "Got to try some more";
+        {
+            for (int x = first; x <= second; x++) {
+                System.out.println(x);
+            }
         }
+
     }
 
     //ex4
-    public static int checkBiggerNumber(int first, int second) {
-        if (first > second) {
-            return first;
-        } else {
-            return second;
+    public void PrintNumbers4(int first, int second) {
+
+        {
+            for (int x = first; x >= second; x--) {
+                System.out.println(x);
+
+
+            }
+
         }
-
-
     }
 
     //ex5
-    public String comparison(String text, int third) {
-        if (text.equals("FastTrackIT") && third <= 3) {
-            return text + third;
-        } else if (!text.equals("FastTrackIT") && third >= 4) {
-            return third + text;
-        } else {
-            return "No condition was met.";
+    public void PrintNumbers5(int even) {
+        for (int l = even; l <= 100; l++) {
+            if (l % 2 == 0) {
+                System.out.println(l);
+            }
         }
     }
 
     //ex6
-    public String comparison2(int four) {
-        if (four > 8 || four == 6) {
-            return "The amount of snow this winter was(cm): 7 ";
-        } else {
-            return "The forecast snow is(cm): 7";
+    public void PrintNumbers6(int odd) {
+        for (int m = odd; m <= 100; m++) {
+            if (m % 2 == 1) {
+                System.out.println(m);
+            }
         }
-
 
     }
 
     //ex7
-    public String comparison3(int noua) {
-        if (noua > 3 && 9 != 4) {
-            return "The number is greater than 3 and not equal to 4";
+    int sum = 0;
+
+    public void PrintNumbers7(int first, int second) {
+        for (int i = first; i <= second; i++) {
+            sum = sum + i;
         }
-        if (noua == 4) {
-            return " The numbers is equal to 4";
-        } else if (noua < 3) {
-            return "The number is lower than 3";
-        } else {
-            return "Only the first condition is met.";
-        }
-
-
-    }
-   //ex8
-    public static int chocolateString(int a) {
-        int result = a;
-        return result;
-
-
-    }
-    //ex9
-    public static String isNumberEven(int b) {
-        if (b % 2 == 0) {
-            return "is true";
-
-        } else {
-            return " is false";
-        }
-
-    }
-    //ex10
-    public static String isEligibleVote(int c){
-        if( c > 18){
-            return " is true";
-        }
-        else{
-            return " is false";
-        }
+        System.out.println(sum);
     }
 
+    //ex8
+    public float PrintNumbers8(int first, int second) {
+
+        for (int i = first; i <= second; i++) {
+            sum = sum + i;
+
+        }
+            return sum/100;
+
+        }
+        //ex9
+        public String Print( String asterisk){
+        for(int y = 0; y <=6; y++){
+            for ( int x = 6; x>=y; x--){
+                System.out.print("*");
+            }
+                System.out.println();
+            }
+            return asterisk;
+        }
 
 
-    }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

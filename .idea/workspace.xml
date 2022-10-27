@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a626d5ea-15de-43c2-9ae5-f732e7020020" name="Changes" comment="tema lab11">
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Adopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/CatFood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/RecreationalActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Veterinarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicalOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +40,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AppMain">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalRescue.AppMain" />
       <module name="Java" />
@@ -73,9 +70,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AppMain" />
-        <item itemvalue="Application.LogicalOp" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.LogicalOp" />
+        <item itemvalue="Application.AppMain" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666605221702</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="tema lab11">
+      <created>1666610206319</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666610206319</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
