@@ -2,5 +2,13 @@ package AnimalRescue;
 
 public class RecreationalActivity {
 
-    String name = "Balls";
+    private String name;
+
+    public void setName(String name){
+        this.name=name;
+    }
+
+    public String getName(){
+        return name;
+    }
 }
