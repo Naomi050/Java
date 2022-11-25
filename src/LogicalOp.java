@@ -1,215 +1,125 @@
-
 public class LogicalOp {
-
-//
-//    //ex1
-//    public void PrintNumbers(int number) {
-//        for (int w = number; w <= 100; w++) {
-//            System.out.println(w);
-//        }
-//
-//
-//    }
-//
-//    //ex2
-//    public void PrintNumbers2(int print) {
-//        for (int y = print; y >= -100; y--) {
-//            System.out.println(y);
-//
-//        }
-//    }
-//
-//
-//    //ex3
-//    public void PrintNumbers3(int first, int second) {
-//
-//        {
-//            for (int x = first; x <= second; x++) {
-//                System.out.println(x);
-//            }
-//        }
-//
-//    }
-//
-//    //ex4
-//    public void PrintNumbers4(int first, int second) {
-//
-//        {
-//            for (int x = first; x >= second; x--) {
-//                System.out.println(x);
-//
-//
-//            }
-//
-//        }
-//    }
-//
-//    //ex5
-//    public void PrintNumbers5(int even) {
-//        for (int l = even; l <= 100; l++) {
-//            if (l % 2 == 0) {
-//                System.out.println(l);
-//            }
-//        }
-//    }
-//
-//    //ex6
-//    public void PrintNumbers6(int odd) {
-//        for (int m = odd; m <= 100; m++) {
-//            if (m % 2 == 1) {
-//                System.out.println(m);
-//            }
-//        }
-//
-//    }
-//
-//    //ex7
-//    int sum = 0;
-//
-//    public void PrintNumbers7(int first, int second) {
-//        for (int i = first; i <= second; i++) {
-//            sum = sum + i;
-//        }
-//        System.out.println(sum);
-//    }
-//
-//    //ex8
-//    public float PrintNumbers8(int first, int second) {
-//
-//        for (int i = first; i <= second; i++) {
-//            sum = sum + i;
-//
-//        }
-//            return sum/100;
-//
-//        }
-//        //ex9
-//        public String Print( String asterisk) {
-//            for (int y = 0; y <= 6; y++) {
-//                for (int x = 6; x >= y; x--) {
-//                    System.out.print("*");
-//                }
-//                System.out.println();
-//            }
-//            return asterisk;
-//        }
-
-    //Java While Loop
-    //ex1
-    public void While(int first) {
-        while (first <= 100) {
-            System.out.println(first);
-            first++;
+    //ex 2
+    public void getArray() {
+        int[] array = new int[100];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
         }
-    }
-
-    //ex2
-    public void While2(int number) {
-        while (number >= -100) {
-            System.out.println(number);
-            number--;
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
         }
     }
 
     //ex3
-    public void While3(int first, int second) {
-        while (first <= second) {
-            System.out.println(first);
-            first++;
-        }
-    }
+    public void getEvenArray(int ignoredArrayEven) {
+        int[] arrayEven = new int[100];
 
-    int x = 183;
-    int y = 114;
+        for (int i = 0; i < 100; i++) {
+            arrayEven[i] = i + 1;
+        }
+        for (int i = 0; i < 100; i++) {
+            if (arrayEven[i] % 2 == 0) {
+                System.out.println(arrayEven[i]);
+
+
+            }
+        }
+
+
+    }
 
     //ex4
-    public void While4(int first, int second) {
-        if (x < y) {
-            while (first <= second) {
-                System.out.println(first);
-                first++;
-            }
-        } else if (x > y) {
-            while (first >= second) {
-                System.out.println(second);
-                second++;
+    public float getAverageArray(int[] sumArray) {
+        float sum = 0;
 
-            }
-
+        for (int i = 0; i < sumArray.length; i++) {
+            sum += sumArray[i];
         }
+        return (sum / sumArray.length);
+
 
     }
 
-    //ex5
-    int i = 2;
 
-    public int While5(int even) {
-        while (i <= 100) {
-            System.out.println(i + even);
-            i = i + 2;
+    //5
+    public boolean isInArray(String[] values, String value) {
+        for (int i = 0; i < values.length; i++) {
+            if (values[i].equals(value)) {
+                return true;
+            }
         }
-
-        return even;
+        return false;
     }
 
-    //ex6
-    int m = 1;
-
-    public int While6(int odd) {
-        while (m <= 100) {
-            System.out.println(m + odd);
-            m = m + 2;
+    //6
+    public boolean positioninArray(int[] array, int value) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == value) {
+                return true;
+            }
         }
-        return odd;
+        return false;
     }
 
     //ex7
-    public float While7(int first, int second) {
-        float sum = 0;
-        float count = 0;
-        while (first <= second) {
-            sum = sum + first;
-            count++;
-            first++;
+    public void Lines() {
+        char[] line = {'-', '-', '-', '-', '-', '-', '-', '-', '-', '-',};
 
+        for (int i = 0; i < 10; i++) {
+            System.out.println(line);
         }
-        return sum / count;
-
     }
 
     //ex8
-    public int While8(int first, int second) {
-        int sum = 0;
-        int count = 0;
-            while (first <= second) {
-                if (first % 7 == 00)
-                sum = sum + first;
-                count++;
-                first++;
+    public int[] DeletetheNumber(int[] array, int number) {
 
+        int[] otherArray = new int[array.length];
+        int j = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == number)
 
-            }
+                continue;
 
-        return sum/count;
+            otherArray[j++] = array[i];
+
+        }
+
+        int[] lastoneArray = new int[j];
+
+        for (int i = 0; i < j; i++)
+            lastoneArray[i] = otherArray[i];
+
+        return lastoneArray;
+
     }
-
 
     //ex9
+    public int returntheSecondNumber(int[] array) {
+        int secondnumber = 0;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = i + 1; j < 4; j++) {
+                if (array[i] > array[j]) {
+                    secondnumber = array[j];
+                    array[j] = array[i];
+                    array[i] = secondnumber;
+                }
+            }
+        }
+        return array[1];
+    }
 
+    //ex10
+    public int[] MovetheValues(int[] array, int[] array2) {
+        for (int i = 0, x = 0; i < array.length; i++) {
+            array2[x] = array[i];
+            x++;
 
-
+        }
+        return array2;
     }
 
 
-
-
-
-
-
-
-
-
-
+}
 
 
 

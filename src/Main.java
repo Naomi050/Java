@@ -1,9 +1,9 @@
 import AnimalRescue.AppMain;
 
-public class Main {
-
-    public static void main(String[] args) {
-    LogicalOp op = new LogicalOp();
+//public class Main {
+//
+//    public static void main(String[] args) {
+//    LogicalOp op = new LogicalOp();
 //    int w = 30;
 //    op.PrintNumbers(w);
 //    int y = -40;
@@ -26,28 +26,28 @@ public class Main {
 //    op.PrintNumbers8(e,t);
 //    String v = "asterisk";
 //    op.Print(v);
-        int z = 17;
-        op.While(z);
-        int a = -28;
-        op.While2(a);
-        int x = 175;
-        int y = 230;
-        op.While3(x,y);
-        int f= 183;
-        int e= 114;
-        op.While4(f, e);
-        int b = 1;
-        op.While5(b);
-        int m = 1;
-        op.While6(m);
-        System.out.println(op.While7(111,88999));
-        int o= 1;
-        int p = 50;
-        op.While8(o, p);
-
-
-    }
-}
+//        int z = 17;
+//        op.While(z);
+//        int a = -28;
+//        op.While2(a);
+//        int x = 175;
+//        int y = 230;
+//        op.While3(x,y);
+//        int f= 183;
+//        int e= 114;
+//        op.While4(f, e);
+//        int b = 1;
+//        op.While5(b);
+//        int m = 1;
+//        op.While6(m);
+//        System.out.println(op.While7(111,88999));
+//        int o= 1;
+//        int p = 50;
+//        op.While8(o, p);
+//
+//
+//    }
+//}
 
 
 
