@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a626d5ea-15de-43c2-9ae5-f732e7020020" name="Changes" comment="tema lab 13">
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Hen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Lamb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Rabit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicalOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AppMain">
+  <component name="RunManager" selected="Application.MainLists">
     <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnimalRescue.AppMain" />
       <module name="Java" />
@@ -77,7 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainLists" />
+      <module name="Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.MainLists" />
       <item itemvalue="Application.AppMain" />
       <item itemvalue="Application.LogicalOp" />
       <item itemvalue="Application.Main" />
@@ -85,6 +90,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainLists" />
         <item itemvalue="Application.AppMain" />
         <item itemvalue="Application.MainArray" />
         <item itemvalue="Application.Main" />
@@ -220,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669384593001</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="tema lab 13">
+      <created>1669388955086</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669388955086</updated>
+    </task>
+    <task id="LOCAL-00019" summary="tema lab 13">
+      <created>1669388995890</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669388995890</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
