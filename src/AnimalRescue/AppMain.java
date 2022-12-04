@@ -3,6 +3,19 @@ package AnimalRescue;
 public class AppMain {
 
  public static void main(String[] args) {
+  Dog g = new Rex();
+  g.name();
+  g.age();
+  g.color();
+  g.weight();
+  g.gender();
+  g.hungerlevel();
+  g.moodlevel();
+  g.thelevelofhealth();
+  g.thenameoftherecreatnalactivity();
+
+
+  System.out.println();
   Cat fofo = new Cat();
   fofo.setName(" NAME: Fofo");
   System.out.println(fofo.getName());
@@ -117,6 +130,8 @@ public class AppMain {
   System.out.println(rabit.getWeight());
 
  }
+
+
 
 
 
