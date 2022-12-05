@@ -2,15 +2,15 @@ import java.util.List;
 
 public class LogicalOp {
 //    //ex 2
-//    public void getArray() {
-//        int[] array = new int[100];
-//        for (int i = 0; i < array.length; i++) {
-//            array[i] = i + 1;
-//        }
-//        for (int i = 0; i < array.length; i++) {
-//            System.out.println(array[i]);
-//        }
-//    }
+    public void getArray() {
+        int[] array = new int[100];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
+        }
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+    }
 //
 //    //ex3
 //    public void getEvenArray(int ignoredArrayEven) {
@@ -172,6 +172,15 @@ public class LogicalOp {
                 bigNumber=List.get(i);
         }
         return bigNumber;
+    }
+
+    //ex5
+    public void DisaplayArrayInIndex(int[] anArray, int nr){
+        try{
+            System.out.println(anArray[nr]);
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Inside catch, number too large");
+        }
     }
 
 
