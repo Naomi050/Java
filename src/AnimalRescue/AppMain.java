@@ -13,30 +13,37 @@ public class AppMain {
   g.moodlevel();
   g.thelevelofhealth();
   g.thenameoftherecreatnalactivity();
+  g.eat();
+  g.speak();
+  g.sleep();
+  g.run();
 
 
-  System.out.println();
-  Cat fofo = new Cat();
-  fofo.setName(" NAME: Fofo");
-  System.out.println(fofo.getName());
-  fofo.setAge(3);
-  System.out.println(fofo.getAge());
-  fofo.setColor(" COLOR: White");
-  System.out.println(fofo.getColor());
-  fofo.setGender(" GENDER: female");
-  System.out.println(fofo.getGender());
-  fofo.setWeight(2);
-  System.out.println(fofo.getWeight());
-  fofo.setHungerlevel(5);
-  System.out.println(fofo.getHungerlevel());
-  fofo.setMoodlevel(90);
-  System.out.println(fofo.getMoodlevel());
-  fofo.setThefoodname(" FOOD: milk with milk");
-  System.out.println(fofo.getThefoodname());
-  fofo.setThelevelofhealth(95);
-  System.out.println(fofo.getThelevelofhealth());
-  fofo.setThenameoftherecreationalactivity("FAVORITE GAME: to play in the water");
-  System.out.println(fofo.getThenameoftherecreationalactivity());
+
+
+
+//  System.out.println();
+//  Cat fofo = new Cat();
+//  fofo.setName(" NAME: Fofo");
+//  System.out.println(fofo.getName());
+//  fofo.setAge(3);
+//  System.out.println(fofo.getAge());
+//  fofo.setColor(" COLOR: White");
+//  System.out.println(fofo.getColor());
+//  fofo.setGender(" GENDER: female");
+//  System.out.println(fofo.getGender());
+//  fofo.setWeight(2);
+//  System.out.println(fofo.getWeight());
+//  fofo.setHungerlevel(5);
+//  System.out.println(fofo.getHungerlevel());
+//  fofo.setMoodlevel(90);
+//  System.out.println(fofo.getMoodlevel());
+//  fofo.setThefoodname(" FOOD: milk with milk");
+//  System.out.println(fofo.getThefoodname());
+//  fofo.setThelevelofhealth(95);
+//  System.out.println(fofo.getThelevelofhealth());
+//  fofo.setThenameoftherecreationalactivity("FAVORITE GAME: to play in the water");
+//  System.out.println(fofo.getThenameoftherecreationalactivity());
 //
 //
 //  CatFood food = new CatFood();
@@ -83,6 +90,10 @@ public class AppMain {
   System.out.println(dog.getGender());
   dog.setWeight(6);
   System.out.println(dog.getWeight());
+  dog.eat();
+  dog.speak();
+  dog.sleep();
+  dog.run();
   System.out.println();
   System.out.println();
 
@@ -98,6 +109,10 @@ public class AppMain {
   System.out.println(hen.getGender());
   hen.setWeight(1);
   System.out.println(hen.getWeight());
+  hen.eat();
+  hen.speak();
+  hen.sleep();
+  hen.run();
   System.out.println();
   System.out.println();
 
@@ -113,11 +128,15 @@ public class AppMain {
   System.out.println(lamb.getAge());
   lamb.setWeight(2);
   System.out.println(lamb.getWeight());
+  lamb.eat();
+  lamb.speak();
+  lamb.sleep();
+  lamb.run();
   System.out.println();
   System.out.println();
 
 
-  Rabit rabit = new Rabit();
+  Rabbit rabit = new Rabbit();
   rabit.setName("The rabit's name is Dotty");
   System.out.println(rabit.getName());
   rabit.setColor("The rabit's color is gray");
@@ -128,6 +147,10 @@ public class AppMain {
   System.out.println(rabit.getAge());
   rabit.setWeight(5);
   System.out.println(rabit.getWeight());
+  rabit.eat();
+  rabit.sleep();
+  rabit.speak();
+  rabit.run();
 
  }
 

@@ -1,17 +1,16 @@
 package AnimalRescue;
 
-public class Animal {
-    private String name;
-
-    private int age;
-    private int weight;
-    private String gender;
-    private String color;
-    private int thelevelofhealth;
-    private int hungerlevel;
-    private int moodlevel;
-    private String thefoodname;
-    private String thenameoftherecreationalactivity;
+public abstract class  Animal {
+    public String name;
+    public int age;
+    public int weight;
+    public String gender;
+    public String color;
+    public int thelevelofhealth;
+    public int hungerlevel;
+    public int moodlevel;
+    public String thefoodname;
+    public String thenameoftherecreationalactivity;
 
 
     public void setName(String name){
@@ -84,5 +83,11 @@ public class Animal {
     public String getThenameoftherecreationalactivity(){
         return thenameoftherecreationalactivity;
     }
+
+    public abstract void  eat();
+
+    public abstract void speak();
+    public abstract void sleep();
+    public abstract void run();
 }
 

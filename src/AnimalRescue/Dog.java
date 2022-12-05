@@ -1,6 +1,6 @@
 package AnimalRescue;
 
-public class Dog extends Animal {
+public  class  Dog extends Animal {
 
 
     public void name() {
@@ -56,6 +56,33 @@ public class Dog extends Animal {
              System.out.println("The dog's favorite games is the jumping over obstacles");
 
          }
+
+    @Override
+    public void eat() {
+        System.out.println("The dog only eats meat.");
+
+    }
+
+    @Override
+    public void speak() {
+        System.out.println("The dog says: Ham,Ham");
+
+
+
+    }
+
+    @Override
+    public void sleep() {
+        System.out.println("snooooor...ezze");
+
+    }
+
+    @Override
+    public void run() {
+        System.out.println("The dog runs very carefully ");
+
+    }
+
     }
 
 
